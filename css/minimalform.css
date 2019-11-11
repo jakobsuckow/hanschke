@@ -1,0 +1,122 @@
+.minmal-form {
+  display: block;
+  text-align: center;
+  max-width: 500px;
+
+
+}
+
+.minimal-form input, select, textarea, label, button, legend {
+  display: block;
+  width: 450px;
+  max-width: 500px;
+  transition: border-color 200ms ease-in-out;
+  transition-property: border-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0ms;
+
+
+}
+
+.minimal-form textarea {
+  width: 450px;
+  border: 1px solid #c1c1c1;
+  resize: none;
+  background: transparent;
+  padding: 2px 5px;
+}
+
+.minimal-form textarea:active, textarea:focus {
+  outline: none;
+  border: 1px solid #000;
+}
+
+.minimal-form legend {
+  width: 450px;
+  padding: 2px 2px;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.minimal-form input {
+    background: transparent;
+    border: 1px solid #c1c1c1;
+    line-height: 1.5;
+    padding: 4px 10px 4px 6px;
+}
+
+.minimal-form input:focus, input:active {
+  background: transparent;
+  border: 1px solid #000;
+  outline: none;
+}
+
+
+.minimal-form select {
+    background: transparent;
+    background-image: url(../img/triangle.png);
+    background-repeat: no-repeat;
+    background-size: 12px 6px;
+    
+    background-position: right;
+    border: 1px solid #c1c1c1;
+    line-height: 1.5;
+    padding: 4px 10px 4px 6px;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    width: 318px;
+
+}
+
+.minimal-form select:focus, select:active {
+  outline: none;
+}
+
+.minimal-form option {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
+
+.minimal-form fieldset {
+  border: none;
+}
+
+
+.minimal-form label {
+  font-size: 0.9em;
+  padding: 3px 0px;
+
+}
+
+.minimal-form button {
+  padding: 4px 10px 4px 6px;
+  border-radius: 0px;
+  border: 1px solid #c1c1c1;
+  background: transparent;
+  margin-top: 10px;
+  width: 100px;
+  background-image: url(../img/loader.gif);
+
+
+}
+.minimal-form button:hover {
+  color: #000;
+  border: 1px solid #000;
+}
+
+
+.minimal-form button:focus, button:active {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .minimal-form input, select, textarea, label, button, legend {
+    width: 100%;
+
+
+}
+
+
